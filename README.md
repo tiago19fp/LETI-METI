@@ -1,6 +1,6 @@
 # LETI/METI
 
-The following repository contains the projects and reports developed by me during my bachelor's degree 
+The following repository contains the projects developed by me during my bachelor's degree 
 in Telecommunications Engineering and Informatics (LETI) and master's degree in Telecommunications Engineering 
 and Informatics (METI). Most of the projects are in Portuguese.
 
