@@ -1,0 +1,3 @@
+oal casd
+fsdfghytrtttttttttttttttttttttt
+STDIN:6 STDOUT:6 STDERR:6

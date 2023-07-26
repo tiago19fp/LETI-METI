@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.FillSymptomsActivity"
+    android:background="@drawable/fill">
+
+    <ListView
+        android:id="@+id/list_sintomas"
+        android:layout_width="312dp"
+        android:layout_height="407dp"
+        android:layout_weight="1"
+        android:background="@xml/rounde_corner_list"
+        android:choiceMode="multipleChoice"
+        android:divider="@drawable/com_facebook_button_send_icon_white"
+        android:dividerHeight="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.253"></ListView>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@xml/rounde_corner_list"
+        app:layout_constraintBottom_toTopOf="@+id/button_createUser"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/list_sintomas"
+        app:layout_constraintVertical_bias="0.541">
+
+        <RadioButton
+            android:id="@+id/radio_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:onClick="checkButton"
+            android:text="Infeção confirmada" />
+
+        <RadioButton
+            android:id="@+id/radio_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="checkButton"
+            android:text="Caso suspeito" />
+
+        <RadioButton
+            android:id="@+id/radio_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="checkButton"
+            android:text="Recuperado" />
+
+        <RadioButton
+            android:id="@+id/radio_four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="checkButton"
+            android:text="Presumidamente saudável" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button_createUser"
+        android:layout_width="312dp"
+        android:layout_height="47dp"
+        android:background="@xml/rounde_corner_list"
+        android:text="Seguinte"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/list_sintomas"
+        app:layout_constraintVertical_bias="0.917"></Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Selecione os seus sintomas e estado de saúde"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/list_sintomas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"></TextView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

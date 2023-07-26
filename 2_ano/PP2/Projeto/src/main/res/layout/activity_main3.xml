@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.DashBoardActivity"
+    android:background="@drawable/dash">
+
+    <TextView
+        android:id="@+id/texDasInfe"
+        android:layout_width="160dp"
+        android:layout_height="90dp"
+        android:background="@xml/rounde_corner_list"
+        android:gravity="center|top"
+        android:textSize="16dp"
+        android:text="Infetados"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.063"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.188"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/texDasInfetados"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/texDasInfe"
+        app:layout_constraintEnd_toEndOf="@+id/texDasInfe"
+        app:layout_constraintHorizontal_bias="0.325"
+        app:layout_constraintStart_toStartOf="@+id/texDasInfe"
+        app:layout_constraintTop_toTopOf="@+id/texDasInfe"
+        app:layout_constraintVertical_bias="0.7"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/texDasSem"
+        android:layout_width="160dp"
+        android:layout_height="90dp"
+        android:background="@xml/rounde_corner_list"
+        android:gravity="center|top"
+        android:textSize="16dp"
+        android:text="Sem sintomas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.936"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.388"></TextView>
+
+    <TextView
+        android:id="@+id/texDasSemSintomas"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/texDasSem"
+        app:layout_constraintEnd_toEndOf="@+id/texDasSem"
+        app:layout_constraintHorizontal_bias="0.325"
+        app:layout_constraintStart_toStartOf="@+id/texDasSem"
+        app:layout_constraintTop_toTopOf="@+id/texDasSem"
+        app:layout_constraintVertical_bias="0.7"></TextView>
+
+    <TextView
+        android:id="@+id/texDasCom"
+        android:layout_width="160dp"
+        android:layout_height="90dp"
+        android:background="@xml/rounde_corner_list"
+        android:gravity="center|top"
+        android:textSize="16dp"
+        android:text="Com sintomas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.063"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.388"></TextView>
+
+    <TextView
+        android:id="@+id/texDasComSintomaS"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/texDasCom"
+        app:layout_constraintEnd_toEndOf="@+id/texDasCom"
+        app:layout_constraintHorizontal_bias="0.325"
+        app:layout_constraintStart_toStartOf="@+id/texDasCom"
+        app:layout_constraintTop_toTopOf="@+id/texDasCom"
+        app:layout_constraintVertical_bias="0.7"></TextView>
+
+    <TextView
+        android:id="@+id/texDasSUs"
+        android:layout_width="160dp"
+        android:layout_height="90dp"
+        android:background="@xml/rounde_corner_list"
+        android:gravity="center|top"
+        android:textSize="16dp"
+        android:text="Suspeitos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.936"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.188"></TextView>
+
+    <TextView
+        android:id="@+id/texDasSuspeitos"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/texDasSUs"
+        app:layout_constraintEnd_toEndOf="@+id/texDasSUs"
+        app:layout_constraintHorizontal_bias="0.325"
+        app:layout_constraintStart_toStartOf="@+id/texDasSUs"
+        app:layout_constraintTop_toTopOf="@+id/texDasSUs"
+        app:layout_constraintVertical_bias="0.7"
+        ></TextView>
+
+    <Button
+        android:id="@+id/button_altera"
+        android:layout_width="312dp"
+        android:layout_height="50dp"
+        android:background="@xml/rounde_corner_list"
+        android:text="Alterar Estado"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.918"></Button>
+
+    <TextView
+        android:id="@+id/textNomeCid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.075"
+        android:textSize="30dp"
+        android:textColor="#ffff"></TextView>
+
+    <TextView
+        android:layout_width="312dp"
+        android:layout_height="176dp"
+        android:background="@xml/rounde_corner_list"
+        android:gravity="center_vertical|right"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.731"></TextView>
+
+    <TextView
+        android:id="@+id/textUserInfo"
+        android:layout_width="173dp"
+        android:layout_height="128dp"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.783"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.726"></TextView>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageFace"
+        android:layout_width="118dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.17"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.687"></de.hdodenhof.circleimageview.CircleImageView>
+
+    <ImageView
+        android:layout_width="43dp"
+        android:layout_height="42dp"
+        android:background="@drawable/coracao"
+        app:layout_constraintBottom_toBottomOf="@+id/texDasInfe"
+        app:layout_constraintEnd_toEndOf="@+id/texDasInfe"
+        app:layout_constraintHorizontal_bias="0.897"
+        app:layout_constraintStart_toStartOf="@+id/texDasInfe"
+        app:layout_constraintTop_toTopOf="@+id/texDasInfe"
+        app:layout_constraintVertical_bias="0.729"></ImageView>
+
+    <ImageView
+        android:layout_width="43dp"
+        android:layout_height="42dp"
+        android:background="@drawable/laranja"
+        app:layout_constraintBottom_toBottomOf="@+id/texDasSUs"
+        app:layout_constraintEnd_toEndOf="@+id/texDasSUs"
+        app:layout_constraintHorizontal_bias="0.897"
+        app:layout_constraintStart_toStartOf="@+id/texDasSUs"
+        app:layout_constraintTop_toTopOf="@+id/texDasSUs"
+        app:layout_constraintVertical_bias="0.729"></ImageView>
+
+    <ImageView
+        android:layout_width="43dp"
+        android:layout_height="42dp"
+        android:background="@drawable/verde"
+        app:layout_constraintBottom_toBottomOf="@+id/texDasSem"
+        app:layout_constraintEnd_toEndOf="@+id/texDasSem"
+        app:layout_constraintHorizontal_bias="0.897"
+        app:layout_constraintStart_toStartOf="@+id/texDasSem"
+        app:layout_constraintTop_toTopOf="@+id/texDasSem"
+        app:layout_constraintVertical_bias="0.729"></ImageView>
+
+    <ImageView
+        android:layout_width="43dp"
+        android:layout_height="42dp"
+        android:background="@drawable/amarelo"
+        app:layout_constraintBottom_toBottomOf="@+id/texDasCom"
+        app:layout_constraintEnd_toEndOf="@+id/texDasCom"
+        app:layout_constraintHorizontal_bias="0.897"
+        app:layout_constraintStart_toStartOf="@+id/texDasCom"
+        app:layout_constraintTop_toTopOf="@+id/texDasCom"
+        app:layout_constraintVertical_bias="0.729"></ImageView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
