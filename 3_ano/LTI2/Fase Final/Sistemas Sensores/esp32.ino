@@ -20,10 +20,10 @@ const int led = 25;
 const int motionSensor = 18;
 const int lightSensor = 32;
 
-const char *ssid = "MEO-CASA";
-const char *password = "10203040";
+const char *ssid = "";
+const char *password = "";
 const uint16_t port = 8080;
-const char *host = "192.168.1.119";
+const char *host = "";
 int value_light = 0;
 int value_lightSensor = 0;
 int value_motionSensor = 0;
