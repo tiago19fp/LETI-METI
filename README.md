@@ -27,6 +27,7 @@ and Informatics (METI). Most of the projects are in Portuguese.
 * [Cryptography and Network Security](https://github.com/tiago19fp/LETI-METI/tree/main/4_ano/CRIPTO)
 * [Emulation and Simulation of Telecommunication Networks](https://github.com/tiago19fp/LETI-METI/tree/main/4_ano/ESRT)
 * [Network Management and Virtualization](https://github.com/tiago19fp/LETI-METI/tree/main/4_ano/GVR)
+* [Integrator Project in Telecommunications and Informatics](https://github.com/tiago19fp/LETI-METI/tree/main/4_ano/PITI)
 * [Access and Core Networks](https://github.com/tiago19fp/LETI-METI/tree/main/4_ano/RAN)
 * [Mobile Networks](https://github.com/tiago19fp/LETI-METI/tree/main/4_ano/RM)
 * [Network Services and Multimedia Applications](https://github.com/tiago19fp/LETI-METI/tree/main/4_ano/SRAM)
